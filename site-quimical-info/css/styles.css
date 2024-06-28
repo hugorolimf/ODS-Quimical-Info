@@ -1,0 +1,284 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ccccb29f, #7575193d);
+}
+
+
+
+.navbar {
+    background-color: #d2b48c;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 40;
+    gap: 1.25rem;
+}
+
+.navbar ul li a {
+    padding: 0.5rem 0.75rem;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+.navbar ul li a:hover {
+    color: #333;
+}
+
+.janela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin: 40px auto;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #d2b48c;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #b89b6d;
+}
+
+
+
+/* Bloco 1 */
+.bloco1 {
+    position: relative;
+    width: 90%;
+    height: 400px;
+    background: url('/img/arvoresvede.jpg') no-repeat center center/cover;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.bloco1 .content {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* Bloco 1-2 */
+.bloco1-2 .content {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    text-align: left;
+    color: #ffffff;
+}
+
+.bloco1-2 {
+    position: relative;
+    width: 90%;
+    height: 400px;
+    background: url('/img/dedomundo.jpg') no-repeat center center/cover;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Bloco 2 */
+.bloco2 {
+    flex: 1;
+    padding: 40px;
+}
+
+.bloco2 h1 {
+    font-size: 24px;
+    color: #a0a0a0;
+}
+
+.bloco2 h2 {
+    font-size: 32px;
+    color: #333333;
+    margin: 10px 0;
+}
+
+.bloco2 p {
+    font-size: 18px;
+    color: #555555;
+}
+
+.image-bloco2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-bloco2 img {
+    max-width: 400px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+.conteudo-numero {
+    flex: 0 0 30px;
+    font-size: 18px;
+    color: #666;
+    margin-right: 20px;
+}
+
+.conteudo-titulo {
+    flex: 0 0 200px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.conteudo-descricao {
+    flex: 1;
+    font-size: 16px;
+    color: #666;
+}
+
+.footer {
+    background-color: #d2b48c;
+    color: #333;
+    padding: 0px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-section h4 {
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #555; /* Cor dos links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #333; /* Cor dos links ao passar o mouse */
+}
+
+.footer-section p {
+    color: #555; /* Cor do texto das informações de contato */
+}
+
+
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #d2b48c;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+
+.janela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 1000px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin: auto; 
+}
