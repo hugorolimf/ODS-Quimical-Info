@@ -1,6 +1,6 @@
 ## Projeto para o Site "Quimical Info"
 
-** Quimical Info - Protegendo Vidas, Preservando o Planeta **
+**Quimical Info - Protegendo Vidas, Preservando o Planeta**
 
 **Descrição:**
 O site Quimical Info foi desenvolvido para promover práticas sustentáveis e responsáveis, alinhadas com os Objetivos de Desenvolvimento Sustentável (ODS). A Quimical Info Co. se dedica a proteger vidas e preservar o planeta através de soluções inovadoras, educação impactante e parcerias transformadoras. O site destaca as principais áreas de atuação da empresa:
